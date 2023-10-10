@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cyber Punk Warriors</title>
+    <style> 
+      html {     
+        height: 100vh;     
+        display: flex;     
+        justify-content: center;     
+        align-items: center; }
+      #score{
+        font-size: x-large;
+      }
+      table{
+        text-align: center;
+
+      } 
+      a{
+        font-family:monospace;
+        font-size: 24px;
+
+      }
+    </style>    
+  </head>
+  <body>
+    <a href="/portifolio/main.html">Retornar á página principal</a>
+    <div id="gameplay">
+      <div id="score">
+        <table>
+          <tr>
+            <th></th>
+            <th id="n_Score"></th>
+          </tr>
+        </table>
+      </div>
+      <canvas id="jogo">
+      </canvas>
+    </div>
+    <script src="./js/canvas.js"></script>
+  </body>
+</html>
